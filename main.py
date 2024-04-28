@@ -38,3 +38,6 @@ app.include_router(logear)
 def prim():
     return "test"
 
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run(app)
