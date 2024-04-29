@@ -15,7 +15,8 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
-    "https://trabook-app.vercel.app/"
+    "https://trabook-app.vercel.app/",
+    "190.84.88.51:0"
 ]
 
 app.add_middleware(
